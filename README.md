@@ -1,1 +1,1 @@
-# avast
+# Discord Avast Bot

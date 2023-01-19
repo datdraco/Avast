@@ -5,10 +5,13 @@ Avast is a moderation bot that moderates members and keeps the server safe.
 Prefix: `?`
 - -------
 ## Avast Plugins
-- Comes with ANTI-cursing (Racial / Homophobic)
-- Comes with ANTI-link (https:// +7 more) + Only moderators and admins can post links.
-- Comes with Moderation Commands
-- Comes with Basic Community Commands
+- ANTI-cursing (Racial / Homophobic)
+- ANTI-link (https:// +4 more) + Only moderators and admins can post links.
+- -------
+## Ranks
+- Owner Role Permissions `Administrator`
+- Admin Role Permissions `Administrator`
+- Mod Role Permissions `Ban Members` / `Kick Members`
 - -------
 ## Avast Logs 
 The logging is advanced and fast, let's start by setting it up.
@@ -37,5 +40,9 @@ Messages will be sent to these channels.
 - `/delete channel <#channel>` - Deleted a channel.
 - `/name channel <#channel> <name>` - Changes a channel name.
 ## Avast Commands: Member Commands
-- `/party <@member>` - Creates a private channel between you and the mentioned member.
-- `/group <@member> <@member> <@member> <@member>` - Just like `?party` but with 4 People (Max). 
+- `/partyV1 <@member>` - Creates a private channel between you and the mentioned member.
+- `/partyV2 <@member> <@member>` - Just like `/party` but with 3 People (Max). 
+- `/partyV3 <@member> <@member> <@member>` - Just like `/party` but with 4 People (Max). 
+- `/partyV4 <@member> <@member> <@member> <@member>` - Just like `/party` but with 5 People (Max). 
+- `/movies` - Gets a list of animes, movies, series and more for free using [Evo](https://ev01.to) + [uBlock](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
+- -------

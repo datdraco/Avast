@@ -9,16 +9,6 @@ Avast is a moderation bot that moderates members and keeps the server safe.
 - Comes with Moderation Commands
 - Comes with Basic Community Commands
 - -------
-#### Avast Plugin Instructions
-To become an admin or moderator name your roles the following.
-Permissions also work, if you set the permission of a role to `Administrator` it will count as an admin / owner, if you set the role permissions to `Ban Members` you automatically become a moderator.
-- Owners: `Owner`/s - `Crown`/s
-- Admins: `Admin`/s - `Administrator`/s
-- Mods: `Mod`/s - `Moderator`/s
-- Owner Permissions: `Administrator`
-- Admin Permissions: `Administrator`
-- Mod Permissions: `Ban Members` / `Kick Members`
-- -------
 ## Avast Logs 
 The logging is advanced and fast, let's start by setting it up.
 - Use `/setup-log`

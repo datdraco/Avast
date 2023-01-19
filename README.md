@@ -25,6 +25,10 @@ Messages will be sent to these channels.
 - `/kick <@member> <reason>` - Kicks a member from the server.
 - `/give role <@role> <@member> <reason>` - Gives a member a certian role. (2 STEP)
 - `/remove role <@role> <@member> <reason>` - Removes a member's role. (2 STEP)
+- `/create role <name> <#hex>` - Create a role with a certain color (HEX) 
+- `/mute <@member> <reason>` - Mute a members mic in voice channels.
+- `/unmute <@member> <reason>` - Unmute a members mic in voice channels.
+- `/timeout <@member> <seconds> <reason>` - Timeout a member for a specific amount of time.
 - `?lockdown #channel` - Disables any messaging in the channel. ( Only Admins Can Message ) 
 - `?slowmode #channel` - Sets the channels slowmode to 5 Seconds
 - `?hide #channel` - Disables anyone seeing the channel. ( Only Admins Can See ) 
@@ -33,7 +37,5 @@ Messages will be sent to these channels.
 - `/delete channel <#channel>` - Deleted a channel.
 - `/name channel <#channel> <name>` - Changes a channel name.
 ## Avast Commands: Member Commands
-
 - `/party <@member>` - Creates a private channel between you and the mentioned member.
 - `/group <@member> <@member> <@member> <@member>` - Just like `?party` but with 4 People (Max). 
-

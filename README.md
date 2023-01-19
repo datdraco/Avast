@@ -2,6 +2,7 @@
 Invite the official Avast bot [here](https://discord.com/api/oauth2/authorize?client_id=1065476974358835260&permissions=1110214634582&scope=bot), test it out. (There is a chance the bot is offline, this is just a project and the bot runs off of my PC.)
 
 Avast is a moderation bot that moderates members and keeps the server safe. 
+Prefix: `?`
 - -------
 ## Avast Plugins
 - Comes with ANTI-cursing (Racial / Homophobic)
@@ -19,9 +20,28 @@ The logging is advanced and fast, let's start by setting it up.
 Messages will be sent to these channels.
 - -------
 ## Avast Commands: Moderation
+`/`
+
 - `/ban <@member> <reason>` - Permanently bans a member from the server.
 - `/unban <memberID> <reason>` - Unbans a Permanently banned member from the server.
 - `/softban <@member> <reason>` - Bans and Unbans a member instantly from the server.
 - `/kick <@member> <reason>` - Kicks a member from the server.
 - `/give role <@role> <@member> <reason>` - Gives a member a certian role. (2 STEP)
 - `/remove role <@role> <@member> <reason>` - Removes a member's role. (2 STEP)
+
+`?`
+- `?lockdown #channel` - Disables any messaging in the channel. ( Only Admins Can Message ) 
+- `?slowmode #channel` - Sets the channels slowmode to 5 Seconds
+- `?hide #channel` - Disables anyone seeing the channel. ( Only Admins Can See ) 
+## Avast Commands: Channels
+- `/create channel <name> <category>` - Creates a channel in a category.
+- `/delete channel <#channel>` - Deleted a channel.
+- `/name channel <#channel> <name>` - Changes a channel name.
+## Avast Commands: Member Commands
+`/`
+
+- `/party <@member>` - Creates a private channel between you and the mentioned member.
+- `/group <@member> <@member> <@member> <@member>` - Just like `?party` but with 4 People (Max). 
+- ``
+
+`?`

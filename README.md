@@ -1,8 +1,14 @@
 # Discord Avast Bot v1.0
 Invite the official Avast bot [here](https://discord.com/api/oauth2/authorize?client_id=1065476974358835260&permissions=1110214634582&scope=bot), test it out. (There is a chance the bot is offline, this is just a project and the bot runs off of my PC.)
 
+Send donations / Upgrades [here](https://www.paypal.com/paypalme/kioxs)
+
 Avast is a moderation bot that moderates members and keeps the server safe. 
 Prefix: `?`
+## Avast Upgrades 
+- £1 = Music Commands
+- £5 = Custom Commands (10)
+- £10 = Custom Commands (25)
 - -------
 ## Avast Plugins
 - ANTI-cursing (Racial / Homophobic)
@@ -22,6 +28,7 @@ The logging is advanced and fast, let's start by setting it up.
 - you can always change the channel names and category.
 Messages will be sent to these channels.
 - -------
+# Avast Commands
 ## Avast Commands: Moderation
 - `/ban <@member> <reason>` - Permanently bans a member from the server.
 - `/unban <memberID> <reason>` - Unbans a Permanently banned member from the server.
@@ -32,6 +39,7 @@ Messages will be sent to these channels.
 - `/mute <@member> <reason>` - Mute a members mic in voice channels.
 - `/unmute <@member> <reason>` - Unmute a members mic in voice channels.
 - `/timeout <@member> <seconds> <reason>` - Timeout a member for a specific amount of time.
+- `/nickname <@member> <nickname>` - Changes a members nickname.
 - `?lockdown #channel` - Disables any messaging in the channel. ( Only Admins Can Message ) 
 - `?slowmode #channel` - Sets the channels slowmode to 5 Seconds
 - `?hide #channel` - Disables anyone seeing the channel. ( Only Admins Can See ) 

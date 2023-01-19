@@ -36,5 +36,4 @@ Messages will be sent to these channels.
 
 - `/party <@member>` - Creates a private channel between you and the mentioned member.
 - `/group <@member> <@member> <@member> <@member>` - Just like `?party` but with 4 People (Max). 
-- `?suggest <suggestion>` - Sends a suggestion to the owners, can only be used if you have a "`#💡-suggestions` channel.
 

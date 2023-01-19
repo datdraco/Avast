@@ -1,15 +1,10 @@
 # Discord Avast Bot v1.0
 Invite the official Avast bot [here](https://discord.com/api/oauth2/authorize?client_id=1065476974358835260&permissions=1110214634582&scope=bot), test it out. (There is a chance the bot is offline, this is just a project and the bot runs off of my PC.)
 
-Send donations / Upgrades [here](https://www.paypal.com/paypalme/kioxs)
+Send donations [here](https://www.paypal.com/paypalme/kioxs)
 
 Avast is a moderation bot that moderates members and keeps the server safe. 
 Prefix: `?`
-## Avast Upgrades 
-- £1 = Music Commands
-- £5 = Custom Commands (10)
-- £10 = Custom Commands (25)
-- -------
 ## Avast Plugins
 - ANTI-cursing (Racial / Homophobic)
 - ANTI-link (https:// +4 more) + Only moderators and admins can post links.
@@ -29,6 +24,8 @@ The logging is advanced and fast, let's start by setting it up.
 Messages will be sent to these channels.
 - -------
 # Avast Commands
+## Avast Commands: Owners / Admins
+- `/announcement <#channel> <title> <description>` - Sends an announcement to a channel.
 ## Avast Commands: Moderation
 - `/ban <@member> <reason>` - Permanently bans a member from the server.
 - `/unban <memberID> <reason>` - Unbans a Permanently banned member from the server.

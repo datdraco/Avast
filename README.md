@@ -50,4 +50,7 @@ Messages will be sent to these channels.
 - `/partyV3 <@member> <@member> <@member>` - Just like `/party` but with 4 People (Max). 
 - `/partyV4 <@member> <@member> <@member> <@member>` - Just like `/party` but with 5 People (Max). 
 - `/movies` - Gets a list of animes, movies, series and more for free using [Evo](https://ev01.to) + [uBlock](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
+- `/bug report` - Sends a report to a private developer channel in the official server.
+## Avast Commands: Developer Commands
+> Cannot display.
 - -------

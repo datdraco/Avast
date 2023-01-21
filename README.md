@@ -16,8 +16,8 @@ Prefix: `?`
 - -------
 ## Avast Logs 
 The logging is advanced and fast, let's start by setting it up.
-- Use `/setup-log`
-- Select "Sure" (The Blue Button below the message)
+- Use `/setup log`
+- Select "Continue" (The Blue Button below the message)
 - A category called "Avast's Logging" will be created 
 - 5 channels will be created, (avast-messages, avast-members, avast-server, avast-roles, avast-channels).
 - you can always change the channel names and category.
